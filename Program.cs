@@ -1,7 +1,8 @@
 ﻿namespace BookShelf {
     class Program {
         static void Main(string[] args) {
-            
+            Book book = new Book();
+            Check();
         }
         public class Book {
             public string Title {get; set;}
